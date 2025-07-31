@@ -13,3 +13,5 @@
 ![Jaafer's GitHub Stats](https://github-readme-stats.vercel.app/api?username=mysteri0s&show_icons=true&theme=radical)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mysteri0s&layout=compact&theme=radical)
 
+![Dart](https://img.shields.io/badge/-Dart-0175C2?logo=dart&logoColor=white&style=flat)
+
