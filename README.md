@@ -27,5 +27,5 @@
 ![Dart](https://img.shields.io/badge/-Dart-0175C2?logo=dart&logoColor=white&style=flat)
 ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat)
 ![Laravel](https://img.shields.io/badge/-Laravel-F55247?logo=laravel&)
-![Laravel](https://img.shields.io/badge/-C++-F55247?logo=c++&)
+![Laravel](https://img.shields.io/badge/-C++-F55247?logo=c++&logoColor=white&style=flat)
 
