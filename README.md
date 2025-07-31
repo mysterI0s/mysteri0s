@@ -1,16 +1,15 @@
-## Hi there 👋
+### Hey there 👋 I'm Jaafer!
 
-<!--
-**mysterI0s/mysteri0s** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- 🔭 I’m currently working as the lead Flutter developer at a tech company, building cross-platform mobile apps.
+- 🌱 I’m currently improving my Python skills, focusing on web scraping and data collection for AI training.
+- 👯 I’m looking to collaborate on AI-driven mobile projects or anything involving smart, data-powered apps.
+- 🤔 I’m exploring how to use scraped real-world data effectively in machine learning pipelines.
+- 💬 Ask me about Flutter, mobile app architecture, clean code practices, or backend integration (Laravel, ASP.NET).
+- 📫 How to reach me: Feel free to hit me up via any of my socials or drop me a message here on GitHub!
+- ⚡ Fun fact: I've led frontend teams in 3 companies and still love building UIs as much as solving backend logic.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+![Jaafer's GitHub Stats](https://github-readme-stats.vercel.app/api?username=mysteri0s&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mysteri0s&layout=compact&theme=radical)
+
