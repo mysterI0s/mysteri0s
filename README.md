@@ -12,6 +12,9 @@
 
 ![Jaafer's GitHub Stats](https://github-readme-stats.vercel.app/api?username=mysteri0s&show_icons=true&theme=radical)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mysteri0s&layout=compact&theme=radical)
-
+![GitHub Streak](https://streak-stats.demolab.com?user=mysteri0s&theme=radical&date_format=M%20j%5B%2C%20Y%5D)
+![Flutter](https://img.shields.io/badge/-Flutter-02569B?logo=flutter&logoColor=white&style=flat)
 ![Dart](https://img.shields.io/badge/-Dart-0175C2?logo=dart&logoColor=white&style=flat)
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat)
+![Laravel](https://img.shields.io/badge/-Laravel-F55247?logo=laravel&)
 
