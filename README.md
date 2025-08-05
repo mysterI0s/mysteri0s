@@ -22,5 +22,5 @@
 
 
 
-![My Tech Stack](https://skillicons.dev/icons?i=flutter,dart,python,laravel,php,dotnet,cpp,cs,androidstudio,html,css,git,github,gitlab,firebase)
+![My Tech Stack](https://skillicons.dev/icons?i=flutter,dart,python,laravel,php,dotnet,cpp,cs,androidstudio,html,css,git,github,gitlab,firebase,supabase)
 
