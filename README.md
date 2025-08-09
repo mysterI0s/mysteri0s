@@ -61,6 +61,13 @@
   <a href="mailto:jaafer.mahfoud97@gmail.com">
     <img src="https://img.shields.io/badge/Email-%23EA4335.svg?&style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
+  <a href="https://www.facebook.com/jaafer.mahfoud" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Facebook-%233b5998.svg?&style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
+</a>
+<a href="https://www.instagram.com/your_instagram_username" target="_blank" rel="noopener noreferrer" style="margin-left: 10px;">
+  <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+</a>
+
 </p>
 
 ---
