@@ -3,24 +3,27 @@ name: Generate Snake Animation
 on:
   schedule:
     - cron: "0 0 * * *" # Runs every day at midnight UTC
-  workflow_dispatch: # Allows you to run the workflow manually from the Actions tab
+  workflow_dispatch: # Manual trigger option
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Pull the GitHub repo
+      # Step 1: Checkout the repo
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Needed for pushing to another branch
 
-      # Step 2: Generate the snake SVG
+      # Step 2: Generate the snake SVG files (light + dark mode)
       - name: Generate snake animation
         uses: Platane/snk@v3
         with:
           github_user_name: mysteri0s
           outputs: |
             dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       # Step 3: Push the generated files to the 'output' branch
       - name: Push to output branch
@@ -28,5 +31,6 @@ jobs:
         with:
           target_branch: output
           build_dir: dist
+          keep_history: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
