@@ -7,7 +7,7 @@
 <!-- Typing SVG Animation -->
 <p align="center">
   <a href="https://github.com/mysteri0s">
-    <img src="https://readme-typing-svg.herokuapp.com?size=22&color=F75C7E&center=true&vCenter=true&width=600&lines=Mobile+Developer+%7C+Flutter+Expert;Python+%7C+AI+%26+Data+Scraping;Clean+Architecture+Advocate;Backend+Integration+%7C+Laravel+%26+ASP.NET" />
+    <img src="https://readme-typing-svg.herokuapp.com?size=22&color=F75C7E&center=true&vCenter=true&width=600&lines=Mobile+Developer+%7C+Flutter+Expert;Python+%7C+AI+%26+Data+Scraping;Clean+Architecture+Advocate;Backend+Integration+%7C+Laravel+%26+Django" />
   </a>
 </p>
 
