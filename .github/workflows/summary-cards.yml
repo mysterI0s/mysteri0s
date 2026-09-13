@@ -1,0 +1,45 @@
+# Save at: .github/workflows/summary-cards.yml  (in your mysterI0s/mysteri0s repo)
+#
+# WHY THIS EXISTS
+# The summary cards normally render live from github-profile-summary-cards.vercel.app.
+# That is a SHARED public instance. GitHub's API allows 5k requests/hour per account,
+# so when it's busy your cards fail — which is the usual cause of "some charts don't load."
+#
+# This Action generates the same SVGs once a day and commits them to your own repo.
+# You then serve them from raw.githubusercontent.com, which has no such limit.
+#
+# AFTER the first successful run, check what folder appeared in your repo
+# (profile-summary-card-output/<theme>/) and swap the README <img> src values to:
+#
+#   https://raw.githubusercontent.com/mysterI0s/mysteri0s/main/profile-summary-card-output/radical/1-repos-per-language.svg
+#   https://raw.githubusercontent.com/mysterI0s/mysteri0s/main/profile-summary-card-output/radical/2-most-commit-language.svg
+#   https://raw.githubusercontent.com/mysterI0s/mysteri0s/main/profile-summary-card-output/radical/3-stats.svg
+#   https://raw.githubusercontent.com/mysterI0s/mysteri0s/main/profile-summary-card-output/radical/4-productive-time.svg
+#
+# NOTE: the default GITHUB_TOKEN only sees public data. To include private-repo
+# activity, create a classic PAT with repo + read:user scope, save it as a repo
+# secret, and reference that instead.
+
+name: GitHub Profile Summary Cards
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # daily at 03:00 UTC
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-summary-cards
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          UTC_OFFSET: 3
