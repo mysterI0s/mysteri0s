@@ -45,21 +45,31 @@ TensorFlow) share a single GPU in a single process behind one selection mechanis
 Fourth-year software engineering project at HIAST. Measured p95 inference of 60 ms (halves) and
 154 ms (speech), with all three models resident in 894 MiB of GPU memory.
 
+<!-- These are GitHub's OWN OpenGraph repo cards, served from githubassets.com.
+     They cannot be rate-limited by a third party, unlike github-readme-stats.
+     The number after /assets/ is an arbitrary cache key - bump it to force a refresh. -->
+
 <p align="center">
   <a href="https://github.com/K1ller-Whale/SonicSight">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=K1ller-Whale&repo=SonicSight&theme=radical&hide_border=true" alt="SonicSight" />
+    <img src="https://opengraph.githubassets.com/1/K1ller-Whale/SonicSight" width="420" alt="SonicSight" />
   </a>
   <a href="https://github.com/K1ller-Whale/SonicSightBackend">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=K1ller-Whale&repo=SonicSightBackend&theme=radical&hide_border=true" alt="SonicSightBackend" />
+    <img src="https://opengraph.githubassets.com/1/K1ller-Whale/SonicSightBackend" width="420" alt="SonicSightBackend" />
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/K1ller-Whale/SonicSightMobile">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=K1ller-Whale&repo=SonicSightMobile&theme=radical&hide_border=true" alt="SonicSightMobile" />
+    <img src="https://opengraph.githubassets.com/1/K1ller-Whale/SonicSightMobile" width="420" alt="SonicSightMobile" />
   </a>
   <a href="https://github.com/K1ller-Whale/MazeRunner">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=K1ller-Whale&repo=MazeRunner&theme=radical&hide_border=true" alt="Where The Sun Dies" />
+    <img src="https://opengraph.githubassets.com/1/K1ller-Whale/MazeRunner" width="420" alt="Where The Sun Dies" />
   </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/K1ller-Whale/SonicSight"><img src="https://img.shields.io/github/stars/K1ller-Whale/SonicSight?style=flat&color=F75C7E&label=SonicSight" alt="SonicSight stars" /></a>
+  <a href="https://github.com/K1ller-Whale/MazeRunner"><img src="https://img.shields.io/github/languages/top/K1ller-Whale/MazeRunner?style=flat&color=F75C7E" alt="MazeRunner top language" /></a>
+  <a href="https://github.com/K1ller-Whale/SonicSight"><img src="https://img.shields.io/github/last-commit/K1ller-Whale/SonicSight?style=flat&color=F75C7E&label=last%20commit" alt="Last commit" /></a>
 </p>
 
 ### Everything else
@@ -93,45 +103,50 @@ Fourth-year software engineering project at HIAST. Measured p95 inference of 60 
 
 ## 📊 GitHub Stats
 
+<!-- REMOVED: the github-readme-stats.vercel.app card and the
+     github-readme-activity-graph.vercel.app graph. Both were dead, and both are
+     already covered by the self-hosted cards below:
+       - stars/commits/PRs/issues  -> 3-stats.svg
+       - contributions over a year -> the area chart inside 0-profile-details.svg -->
+
 <p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=mysterI0s&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&cache_seconds=86400"
-    height="165"
-    alt="Jaafer's GitHub stats"
-  />
   <img
     src="https://streak-stats.demolab.com?user=mysterI0s&theme=radical&hide_border=true&date_format=M%20j%5B%2C%20Y%5D"
-    height="165"
+    height="200"
     alt="GitHub streak"
-  />
-</p>
-
-### 📈 Contribution activity over time
-
-<p align="center">
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=mysterI0s&bg_color=141321&color=F75C7E&line=F75C7E&point=A9FEF7&area=true&area_color=F75C7E&hide_border=true&custom_title=Contribution%20Graph"
-    alt="Contribution activity graph"
   />
 </p>
 
 ### 🧭 Profile breakdown
 
+<!-- Self-hosted. These SVGs are regenerated daily by .github/workflows/summary-cards.yml
+     and committed to this repo, so they don't depend on a shared public instance
+     and can't be rate-limited. Verified live 2026-09-13. -->
+
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mysterI0s&theme=radical" height="200" alt="Top languages by repository" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mysterI0s&theme=radical" height="200" alt="Top languages by commit" />
+  <img src="https://raw.githubusercontent.com/mysterI0s/mysteri0s/main/profile-summary-card-output/radical/0-profile-details.svg" width="700" alt="Profile details" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mysterI0s/mysteri0s/main/profile-summary-card-output/radical/1-repos-per-language.svg" height="200" alt="Top languages by repository" />
+  <img src="https://raw.githubusercontent.com/mysterI0s/mysteri0s/main/profile-summary-card-output/radical/2-most-commit-language.svg" height="200" alt="Top languages by commit" />
 </p>
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mysterI0s&theme=radical" height="200" alt="Profile stats" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=mysterI0s&theme=radical&utcOffset=3" height="200" alt="Most productive time of day" />
+  <img src="https://raw.githubusercontent.com/mysterI0s/mysteri0s/main/profile-summary-card-output/radical/3-stats.svg" height="200" alt="Profile stats" />
+  <img src="https://raw.githubusercontent.com/mysterI0s/mysteri0s/main/profile-summary-card-output/radical/4-productive-time.svg" height="200" alt="Most productive time of day" />
 </p>
 
 <!-- "repos-per-language" counts repositories; "most-commit-language" counts actual commits.
-     They disagree often, and the commit one is the more honest picture. -->
+     The commit one is the more honest picture, and it's the only card here that
+     reflects your K1ller-Whale org work. -->
 
 ---
 
 ## 🏆 GitHub Trophies
+
+<!-- ⚠️ LAST REMAINING vercel.app DEPENDENCY. Every other card from a *.vercel.app
+     community instance was dead when you checked. If this one is blank too, just
+     delete this whole section - it's decoration, and nothing else depends on it. -->
 
 <p align="center">
   <img
