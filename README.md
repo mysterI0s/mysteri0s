@@ -26,7 +26,6 @@
 
 ### 📊 GitHub Stats & Streaks  
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mysteri0s&show_icons=true&theme=radical" height="165" />
   <img src="https://streak-stats.demolab.com?user=mysteri0s&theme=radical&date_format=M%20j%5B%2C%20Y%5D" height="165" />
 </p>
 
