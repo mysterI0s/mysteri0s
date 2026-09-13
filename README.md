@@ -16,7 +16,7 @@
   <a href="https://github.com/mysterI0s?tab=followers">
     <img src="https://img.shields.io/github/followers/mysterI0s?label=Followers&style=flat&color=F75C7E" alt="GitHub followers" />
   </a>
-  <img src="https://img.shields.io/badge/Based%20in-Estonia-F75C7E?style=flat" alt="Based in Estonia" />
+  <img src="https://img.shields.io/badge/Based%20in-Estonia-F75C7E?style=flat" alt="Based in Syria" />
 </p>
 
 ---
