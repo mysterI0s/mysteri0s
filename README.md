@@ -1,82 +1,174 @@
-<!-- Animated Header -->
-<h1 align="center">
-  Hey there 👋 I'm <a href="https://github.com/mysteri0s" target="_blank">Jaafer</a>!
-</h1>
-<h3 align="center">🚀 Lead Flutter Developer | 🐍 Python Enthusiast | AI & Data Explorer</h3>
+<!-- ═══════════════════════════════ HEADER ═══════════════════════════════ -->
+<h1 align="center">Hey there 👋 I'm Jaafer</h1>
+<h3 align="center">Lead Flutter Developer · Audio-Visual ML · Clean Architecture Advocate</h3>
 
-<!-- Typing SVG Animation -->
 <p align="center">
-  <a href="https://github.com/mysteri0s">
-    <img src="https://readme-typing-svg.herokuapp.com?size=22&color=F75C7E&center=true&vCenter=true&width=600&lines=Mobile+Developer+%7C+Flutter+Expert;Python+%7C+AI+%26+Data+Scraping;Clean+Architecture+Advocate;Backend+Integration+%7C+Laravel+%26+Django" />
+  <a href="https://github.com/mysterI0s">
+    <img
+      src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=F75C7E&center=true&vCenter=true&width=600&lines=Flutter+%26+Mobile+Developer;Real-time+Audio-Visual+ML;Python+%7C+gRPC+%7C+PyTorch+%26+TensorFlow;Clean+Architecture+Advocate"
+      alt="Flutter &amp; Mobile Developer | Real-time Audio-Visual ML | Clean Architecture"
+    />
   </a>
 </p>
 
----
-
-### 🌟 About Me  
-- 🔭 Currently **Lead Flutter Developer** at a tech company, crafting cross-platform mobile apps.  
-- 🌱 Expanding my **Python** skills — web scraping & real-world data for AI.  
-- 👯 Open to collaborating on **AI-driven mobile apps** & data-powered projects.  
-- 🤔 Exploring **machine learning pipelines** for scraped data.  
-- 💬 Ask me about **Flutter, clean architecture, backend integration** (Laravel, ASP.NET).  
-- 📫 Reach me on my socials or here on GitHub!  
-- ⚡ Fun fact: **Led frontend teams in 3 companies** and still love designing UIs!  
-
----
-
-### 📊 GitHub Stats & Streaks  
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=mysteri0s&theme=radical&date_format=M%20j%5B%2C%20Y%5D" height="165" />
+  <img src="https://komarev.com/ghpvc/?username=mysterI0s&label=Profile%20views&color=F75C7E&style=flat" alt="Profile views" />
+  <a href="https://github.com/mysterI0s?tab=followers">
+    <img src="https://img.shields.io/github/followers/mysterI0s?label=Followers&style=flat&color=F75C7E" alt="GitHub followers" />
+  </a>
+  <img src="https://img.shields.io/badge/Based%20in-Estonia-F75C7E?style=flat" alt="Based in Estonia" />
 </p>
 
 ---
 
-### 💻 Tech Stack  
+## 🌟 About Me
+
+- 🔭 **Lead Flutter Developer** — building cross-platform mobile apps end to end.
+- 🎓 Software Engineering & AI at the **Higher Institute for Applied Sciences and Technology**.
+- 🎧 Built **SonicSight**, a real-time audio-visual source separation system running two research
+  models over gRPC on a shared GPU — see below.
+- 🌱 Working in **Python** on inference serving, streaming pipelines, and data for ML.
+- 💬 Ask me about **Flutter, clean architecture, gRPC streaming, and backend integration**.
+- ⚡ Fun fact: I've **led frontend teams at 3 companies** and still love designing UIs myself.
+
+---
+
+## 🚀 Featured Projects
+
+### 🎧 SonicSight — real-time audio-visual source separation
+
+A phone captures camera and microphone together and streams both to a GPU server over gRPC.
+The server separates the audio into two tracks and returns a heatmap showing **where in the frame
+the sound came from**. Two pre-trained research models (Sound of Pixels / PyTorch, Multisensory /
+TensorFlow) share a single GPU in a single process behind one selection mechanism.
+
+Fourth-year software engineering project at HIAST. Measured p95 inference of 60 ms (halves) and
+154 ms (speech), with all three models resident in 894 MiB of GPU memory.
+
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=flutter,dart,python,laravel,php,dotnet,cpp,cs,androidstudio,html,css,git,github,gitlab,firebase,supabase" />
+  <a href="https://github.com/K1ller-Whale/SonicSight">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=K1ller-Whale&repo=SonicSight&theme=radical&hide_border=true" alt="SonicSight" />
+  </a>
+  <a href="https://github.com/K1ller-Whale/SonicSightBackend">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=K1ller-Whale&repo=SonicSightBackend&theme=radical&hide_border=true" alt="SonicSightBackend" />
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/K1ller-Whale/SonicSightMobile">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=K1ller-Whale&repo=SonicSightMobile&theme=radical&hide_border=true" alt="SonicSightMobile" />
+  </a>
+  <a href="https://github.com/K1ller-Whale/MazeRunner">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=K1ller-Whale&repo=MazeRunner&theme=radical&hide_border=true" alt="Where The Sun Dies" />
+  </a>
+</p>
+
+### Everything else
+
+| Project | What it does | Stack |
+|---|---|---|
+| [**Where The Sun Dies**](https://github.com/K1ller-Whale/MazeRunner) | Browser-playable first-person 3D horror puzzle maze. Procedurally generated perfect maze, day/night cycle, ten puzzle types with three drawn per run, Playwright visual regression tests. | Three.js · Vite · Web Audio |
+| [**Chordify**](https://github.com/K1ller-Whale/Chordify) | <!-- TODO: one line. The repo has no README — only you know what this does. --> Full-stack monorepo: mobile client, web frontend, AI service, backend. | Java · Python · Web |
+| [**NOVA**](https://github.com/mysterI0s/NOVA) | <!-- TODO: one line. README is still the default `flutter create` scaffold. --> | Flutter · Dart |
+
+---
+
+## 💻 Tech Stack
+
+**Mobile**
+<p>
+  <img src="https://skillicons.dev/icons?i=flutter,dart,kotlin,androidstudio,firebase,supabase" alt="Flutter, Dart, Kotlin, Android Studio, Firebase, Supabase" />
+</p>
+
+**ML & Backend**
+<p>
+  <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,laravel,php,dotnet,cs,cpp" alt="Python, PyTorch, TensorFlow, Laravel, PHP, .NET, C#, C++" />
+</p>
+
+**Web & Tooling**
+<p>
+  <img src="https://skillicons.dev/icons?i=threejs,js,html,css,git,github,gitlab,vscode" alt="Three.js, JavaScript, HTML, CSS, Git, GitHub, GitLab, VS Code" />
 </p>
 
 ---
 
-### 📈 Languages Usage  
+## 📊 GitHub Stats
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mysteri0s&layout=compact&theme=radical" />
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=mysterI0s&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&cache_seconds=86400"
+    height="165"
+    alt="Jaafer's GitHub stats"
+  />
+  <img
+    src="https://streak-stats.demolab.com?user=mysterI0s&theme=radical&hide_border=true&date_format=M%20j%5B%2C%20Y%5D"
+    height="165"
+    alt="GitHub streak"
+  />
+</p>
+
+### 📈 Contribution activity over time
+
+<p align="center">
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=mysterI0s&bg_color=141321&color=F75C7E&line=F75C7E&point=A9FEF7&area=true&area_color=F75C7E&hide_border=true&custom_title=Contribution%20Graph"
+    alt="Contribution activity graph"
+  />
+</p>
+
+### 🧭 Profile breakdown
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mysterI0s&theme=radical" height="200" alt="Top languages by repository" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mysterI0s&theme=radical" height="200" alt="Top languages by commit" />
+</p>
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mysterI0s&theme=radical" height="200" alt="Profile stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=mysterI0s&theme=radical&utcOffset=3" height="200" alt="Most productive time of day" />
+</p>
+
+<!-- "repos-per-language" counts repositories; "most-commit-language" counts actual commits.
+     They disagree often, and the commit one is the more honest picture. -->
+
+---
+
+## 🏆 GitHub Trophies
+
+<p align="center">
+  <img
+    src="https://github-profile-trophy.vercel.app/?username=mysterI0s&theme=radical&no-frame=true&no-bg=true&margin-w=6&row=1&column=6"
+    alt="GitHub trophies"
+  />
 </p>
 
 ---
 
-### 🏆 GitHub Trophies  
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=mysteri0s&theme=radical&no-frame=true&row=1&column=6" />
-</p>
+## 🌐 Connect With Me
 
----
-
-### 🌐 Connect With Me  
 <p align="center">
   <a href="https://www.linkedin.com/in/jaafer-mahfoud-227775216" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-%230A66C2.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-%230A66C2.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:jaafer.mahfoud97@gmail.com">
-    <img src="https://img.shields.io/badge/Email-%23EA4335.svg?&style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Email-%23EA4335.svg?&style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://www.instagram.com/jaafermahfoud/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
   <a href="https://www.facebook.com/jaafer.mahfoud" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/Facebook-%233b5998.svg?&style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
-</a>
-<a href="https://www.instagram.com/your_instagram_username" target="_blank" rel="noopener noreferrer" style="margin-left: 10px;">
-  <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-</a>
-
+    <img src="https://img.shields.io/badge/Facebook-%233b5998.svg?&style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
+  </a>
 </p>
 
 ---
 
-### 🐍 Watch my contributions get eaten by a snake!
+## 🐍 Watch my contributions get eaten by a snake
+
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mysteri0s/mysteri0s/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mysteri0s/mysteri0s/output/github-contribution-grid-snake.svg" />
-    <img alt="snake animation" src="https://raw.githubusercontent.com/mysteri0s/mysteri0s/output/github-contribution-grid-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mysterI0s/mysteri0s/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mysterI0s/mysteri0s/output/github-contribution-grid-snake.svg" />
+    <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/mysterI0s/mysteri0s/output/github-contribution-grid-snake.svg" />
   </picture>
 </p>
 
+<p align="center"><i>Thanks for stopping by — feel free to reach out.</i></p>
