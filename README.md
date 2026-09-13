@@ -67,7 +67,6 @@ Fourth-year software engineering project at HIAST. Measured p95 inference of 60 
 </p>
 
 <p align="center">
-  <a href="https://github.com/K1ller-Whale/SonicSight"><img src="https://img.shields.io/github/stars/K1ller-Whale/SonicSight?style=flat&color=F75C7E&label=SonicSight" alt="SonicSight stars" /></a>
   <a href="https://github.com/K1ller-Whale/MazeRunner"><img src="https://img.shields.io/github/languages/top/K1ller-Whale/MazeRunner?style=flat&color=F75C7E" alt="MazeRunner top language" /></a>
   <a href="https://github.com/K1ller-Whale/SonicSight"><img src="https://img.shields.io/github/last-commit/K1ller-Whale/SonicSight?style=flat&color=F75C7E&label=last%20commit" alt="Last commit" /></a>
 </p>
