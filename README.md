@@ -9,7 +9,6 @@
       alt="Flutter &amp; Mobile Developer | Real-time Audio-Visual ML | Clean Architecture"
     />
   </a>
-  <img src="https://img.shields.io/badge/Based in-Syria-F75C7E?style=flat" alt="Based in Syria" />
 </p>
 
 <p align="center">
@@ -17,6 +16,7 @@
   <a href="https://github.com/mysterI0s?tab=followers">
     <img src="https://img.shields.io/github/followers/mysterI0s?label=Followers&style=flat&color=F75C7E" alt="GitHub followers" />
   </a>
+  <img src="https://img.shields.io/badge/Based in-Syria-F75C7E?style=flat" alt="Based in Syria" />
 </p>
 
 ---
